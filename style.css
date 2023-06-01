@@ -1,0 +1,29 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+}
+
+.grid-item {
+    border: 3px solid rgb(98, 168, 18);
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
+.round-corners-little {
+    border-radius: 5px;
+}
+
+.round-corners {
+    border-radius: 15px;
+}
+
+.round-corners-circle {
+    border-radius: 70px;
+}
+
+.round-diagonal-corners {
+    border-radius: 0 15px 0 15px;
+}
